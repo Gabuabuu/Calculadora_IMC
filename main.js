@@ -27,11 +27,11 @@ verificar.addEventListener('click', function(event) {
   } else {
     
     if(imc < 18.5) {
-    res.style.color = '#08870C'
+    res.style.color = '#1FFF00'
     res.innerHTML = `Ola ${name}! Seu imc é de: ${imc} e está entre ${resImc[0]} ou abaixo || Classificaçao: Magreza || Grau de obesidade: 0`
     
   } else if(imc >= 18.5 && imc <= 24.9) {
-    res.style.color = '#3D6E07'
+    res.style.color = '#1F8910'
     res.innerHTML = ` Olá ${name}! Seu imc é de ${imc} e está entre: ${resImc[1]} || Classificaçao: Normal || Grau de obesidade: 0`
     
   } else if (imc >= 25.0 && imc <= 29.9) {
@@ -43,7 +43,7 @@ verificar.addEventListener('click', function(event) {
     res.innerHTML = `Olá ${name}! Seu imc é  de ${imc} e está entre ${resImc[3]} || Classificaçao: Obesidade || Grau de obesidade: 2`
   } else  {
     imc > 40.0;
-    res.style.color = '#FF0000'
+    res.style.color = '#FF3700'
     res.innerHTML = `Olá ${name}! Seu imc é de ${imc} e está acima de 40,0 procure um médico urgente! || Classificaçao: Obesidade Grave || Grau de obesidade: 3`
   } //checagem para dizer se o imc esta ou não na medida certa e dizendo em qual classificação se adequa.
   }
