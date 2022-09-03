@@ -1,4 +1,4 @@
-const calc = document.querySelector('#calc')
+
 
 verificar.addEventListener('click', function(event) {
   event.preventDefault()
