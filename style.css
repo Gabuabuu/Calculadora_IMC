@@ -15,8 +15,6 @@ body {
 
 .container {
   display: block;
-  flex-direction: column;
-  justify-content: center;
   background: rgba(53, 149, 190, 1);
   width: 350px;
   height: 300px;
@@ -34,7 +32,9 @@ body {
 
 .input {
   border-radius: 10px;
-  border: 2px solid #000000
+  border: 2px solid #000000;
+  width: 180px;
+  text-align: center;
 }
 
 
