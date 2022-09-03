@@ -21,8 +21,10 @@ verificar.addEventListener('click', function(event) {
   
   imc = imc.toFixed(1) //fixando resultado do imc só até a primeira casa decimal
   
-  console.log(resImc[1])
-  if(imc < 18.5) {
+  if(!weight && !height || !name){
+    alert('Preencha os campos acima corretamente') //Checa se os campos estão todos preenchidos e assim liberando a resposta
+  } else {
+    if(imc < 18.5) {
     res.innerHTML = `Ola ${name}! Seu imc é de: ${imc} e está entre ${resImc[0]} ou abaixo || Classificaçao: Magreza || Grau de obesidade: 0`
     
   } else if(imc >= 18.5 && imc <= 24.9) {
@@ -37,6 +39,7 @@ verificar.addEventListener('click', function(event) {
     imc > 40.0;
     res.innerHTML = `Olá ${name}! Seu imc é de ${imc} e está acima de 40,0 procure um médico urgente! || Classificaçao: Obesidade Grave || Grau de obesidade: 3`
   } //checagem para dizer se o imc esta ou não na medida certa e dizendo em qual classificação se adequa.
+  }
     
 })
 
