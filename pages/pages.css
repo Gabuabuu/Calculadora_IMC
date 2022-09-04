@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:#095973
+}
+
+.title {
+  text-align: center;
+  margin: 50px;
+}
+
+#footer {
+  text-align: center 
+}
