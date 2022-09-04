@@ -26,7 +26,7 @@ verificar.addEventListener('click', function(event) {
     
     if(imc < 18.5) {
     res.style.color = '#1FFF00'
-    res.innerHTML = `Ola ${name}! Seu imc é de: ${imc} e está entre ${resImc[0]} ou abaixo || Classificaçao: Magreza || Grau de obesidade: 0`
+    res.innerHTML = `Olá ${name}! Seu imc é de: ${imc} e está entre ${resImc[0]} ou abaixo || Classificaçao: Magreza || Grau de obesidade: 0`
     
   } else if(imc >= 18.5 && imc <= 24.9) {
     res.style.color = '#1F8910'
