@@ -13,6 +13,21 @@ body {
   margin: 50px;
 }
 
+.container {
+  margin: 100px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid white;
+  width: 100%;
+  text-align: center;
+}
+
+th {
+  padding: 
+}
+
 #footer {
   text-align: center 
 }

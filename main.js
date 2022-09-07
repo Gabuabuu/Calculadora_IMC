@@ -45,8 +45,17 @@ verificar.addEventListener('click', function(event) {
     res.innerHTML = `Olá ${name}! Seu imc é de ${imc} e está acima de 40,0 procure um médico urgente! || Classificaçao: Obesidade Grave || Grau de obesidade: 3`
   } //checagem para dizer se o imc esta ou não na medida certa e dizendo em qual classificação se adequa.
   }
+  limpar()
     
 })
+
+function limpar () {
+  const name = document.getElementById('name').value = ''
+  
+  const weight = document.getElementById('weight').value = ''
+  
+  const height = document.getElementById('height').value = ''
+} //função para limpar os campos apos o usuário apertar no botao
 
 const year = document.getElementById('current-year')
 
