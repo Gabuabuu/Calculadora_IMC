@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  margin: 100px;
+  margin: 100px
 }
 
 table {
@@ -25,7 +25,15 @@ table {
 }
 
 th {
-  padding: 
+  padding: 8px;
+  background: #555FE0;
+  border: 2px solid white 
+}
+
+tr, td{
+  background: #1E96BD;
+  padding: 10px; 
+  border: 2px solid white 
 }
 
 #footer {
