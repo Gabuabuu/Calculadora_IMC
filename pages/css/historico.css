@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  margin: 100px
+  margin: 100px;
 }
 
 table {
@@ -26,7 +26,7 @@ table {
 
 th {
   padding: 8px;
-  background: #555FE0;
+  background: #555FE09E;
   border: 2px solid white 
 }
 
