@@ -51,6 +51,10 @@ body {
   margin: 20px;
 }
 
+#save {
+  display: none
+}
+
 #res {
   text-align: center;
   margin: 50px;

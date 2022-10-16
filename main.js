@@ -49,11 +49,18 @@ verificar.addEventListener('click', function(event) {
     
 })
 
-function limparCampos () {
-  const name = document.getElementById('name').value = ''
-  
-  const weight = document.getElementById('weight').value = ''
-  
-  const height = document.getElementById('height').value = ''
-} //função para limpar os campos apos o usuário apertar no botao
 
+
+function save () {
+  const btnSave = document.getElementById ('save')
+  
+}
+
+/*Clear Fields*/
+function limparCampos() {
+  const name = document.getElementById('name').value = ''
+
+  const weight = document.getElementById('weight').value = ''
+
+  const height = document.getElementById('height').value = ''
+} //function to clear the fields after the user presses the button 
