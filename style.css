@@ -1,3 +1,10 @@
+:root {
+  --cor-fundo:#095973; /*azul*/
+  --cor-texto: #FFFFFF; /*branco*/
+  --cor-container: #3595BE; 
+  --cor-botao: #56D6CA
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,17 +12,18 @@
 }
 
 body {
-  background:#095973
+  background: var(--cor-fundo);
 }
 
 .title {
   text-align: center;
   margin: 50px;
+  
 }
 
 .container {
   display: block;
-  background: rgba(53, 149, 190, 1);
+  background: var(--cor-container);
   width: 350px;
   height: 300px;
   text-align: center;
@@ -25,9 +33,9 @@ body {
   border-radius: 20px ;
 }
 
-.abc {
+/*.abc {
   background: red
-}
+}*/
 
 .label {
   display: inline-block;
@@ -44,7 +52,7 @@ body {
 
 .btn {
   padding: 10px;
-  background: #56D6CA;
+  background: var(--cor-botao);
   box-shadow: 2px 2px black;
   border-radius: 10px;
   width: 150px;
@@ -62,5 +70,5 @@ body {
 }
 
 #footer {
-  text-align: center 
+  text-align: center;
 }
