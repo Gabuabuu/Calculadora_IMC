@@ -94,27 +94,3 @@ body {
   text-align: center;
   color: var(--cor-texto);
 }
-
-/* .toggle-theme {
-  width: 150px;
-  height: 50px;
-  position: relative;
-  display: block;
-  margin-left: 600px;
-  background: #ebebeb;
-  border-radius: 20px;
-  box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
-  cursor: pointer;
-}
-
-.toggle-theme:after {
-  content: "";
-  width: 32px;
-  height: 30px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background: linear-gradient(180deg,#ffcc89,#d8860b);
-  border-radius: 20px;
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
-} */
