@@ -33,6 +33,7 @@ body {
   margin: 50px auto 50px;
   padding-top: 50px;
   border-radius: 20px;
+  box-shadow: 4px 4px black;
 }
 
 /*.abc {
@@ -42,6 +43,7 @@ body {
 .label {
   display: inline-block;
   margin: 15px;
+  color: var(--cor-texto);
 }
 
 .input {
@@ -49,6 +51,8 @@ body {
   border: 2px solid #000000;
   width: 180px;
   text-align: center;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 
